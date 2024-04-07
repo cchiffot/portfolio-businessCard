@@ -1,0 +1,47 @@
+.HomePage {
+	width: 100%;
+	height: 100%;
+	/* display: flex; */
+	/* position: relative; */
+	background-color: aqua;
+}
+
+.Contact,
+.Portfolio,
+.Name {
+	font-size: 3rem;
+}
+
+.Contact {
+	position: relative;
+	top: 5%;
+	left: 5%;
+}
+.Portfolio {
+	position: relative;
+	top: 5%;
+	right: 5%;
+}
+
+.Name {
+	position: relative;
+	top: 46%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.Title {
+	position: relative;
+	top: 52%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2rem;
+}
+
+.Others {
+	position: relative;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2.4rem;
+}

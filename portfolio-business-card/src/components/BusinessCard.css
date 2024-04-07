@@ -1,0 +1,13 @@
+.BusinessCard {
+	width: calc(80em);
+	height: calc(80em * (4 / 7));
+	background-image: url("../../public/images/white-textured-card.jpg");
+	background-size: auto;
+	background-position: center;
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+	font-family: "Garamond", serif;
+	color: #28292d;
+}

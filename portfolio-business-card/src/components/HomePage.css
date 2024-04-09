@@ -2,8 +2,8 @@
 	width: 100%;
 	height: 100%;
 	/* display: flex; */
-	/* position: relative; */
-	background-color: aqua;
+	position: relative;
+	/* background-color: aqua; */
 }
 
 .Contact,
@@ -13,25 +13,30 @@
 }
 
 .Contact {
-	position: relative;
+	position: absolute;
 	top: 5%;
 	left: 5%;
 }
+/* .Contact:hover {
+	cursor: pointer;
+	background-image: url("../../public/images/outline/contact-outline.png");
+} */
+
 .Portfolio {
-	position: relative;
+	position: absolute;
 	top: 5%;
 	right: 5%;
 }
 
 .Name {
-	position: relative;
+	position: absolute;
 	top: 46%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
 .Title {
-	position: relative;
+	position: absolute;
 	top: 52%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -39,9 +44,10 @@
 }
 
 .Others {
-	position: relative;
+	position: absolute;
 	top: 90%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 2.4rem;
+	left: 5%;
+	right: 5%;
+	transform: translate(0%, -50%);
+	font-size: 2.65rem;
 }
